@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url('../img/coffee.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a{
+    background-color: #b68567ba;
+    border: 2px solid #4b4107ba;
+    color: #e3ccc4;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+.intro-image__link a:hover {
+    transform: scale(1.5);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: rgb(122, 100, 86);
+    color: rgb(47, 24, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url('../img/coffee2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a{
+    background-color: #c8b4a8a0;
+    border: 2px solid #766a64;
+    color: rgb(143, 94, 69);
+    display: inline-block;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+    font-size: 3rem;
+}
+
+.quality-image__link a:hover{
+    transform: scale(1.2);
+}
+
+.quality-text {
+    background-color: #c8b4a8a0;
+    color: rgb(143, 94, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem ;
+}
+
+.origin-text__textbox a:hover{
+    transform: scale(1.2);
+}
+
+.origin-image {
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url('../img/coffee3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.origin-image__link a{
+    background-color: #54503ca0;
+    border: 2px solid rgb(65, 46, 37);
+    color: rgb(45, 30, 23);
+    display: inline-block;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+    font-size: 3rem;
+}
+.quality-image__link a:hover{
+    transform: scale(1.2);
+}
+
+.origin-text {
+    background-color: #253d3da0;
+    color: rgb(59, 40, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.origin-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem ;
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(66, 61, 57);
+    color: #e5ddda;
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #e5ddda;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
